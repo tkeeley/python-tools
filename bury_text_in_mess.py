@@ -12,7 +12,7 @@ for i in range(total_size):
 	for j in pos:
 		clusterF.append(chr(j))
 
-	if i == total_size/2: #bury you message in the middle of this mess
+	if i == total_size/2: #bury your message in the middle of this mess
 		clusterF.append("Type your hidden message here")
 
 content = "".join(clusterF)
